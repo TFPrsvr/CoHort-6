@@ -2,7 +2,17 @@
  * YOUR CODE HERE *
  ******************
 
+let getFirstItemFrom = arr.length[0];
 
+let getLastItemFrom = arr.length[end];
+
+let getIndex3 = arr.length[2] || arra.length[end];
+
+let isLongList = arr.length[] === boolean arr.length at least 10 or +
+
+let firstItemIsNumber = arr.length[] === boolean # or no
+
+let secondChar0ThirdString = arr.length [2[1]] check func is string(true/false)
 
 
  /********************************************
