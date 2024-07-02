@@ -1,7 +1,71 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+ function xify(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+    
+  }
+ }
 
+
+ function yellingChars(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+
+  }
+ }
+
+
+ function indexedChars(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+
+  }
+ }
+
+ function numberedChars(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+    
+  }
+ }
+
+ function exclaim(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+    
+  }
+ }
+
+ function repeatIt(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+    
+  }
+ }
+
+function truncate(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+    
+  }
+ }
+
+ function emailify(str){
+  let str = ' '
+  for (let i = 0; i < str.length; i++){
+    
+  }
+ }
+
+ function reverse(str){
+
+ }
+
+function onlyVowels(word){
+  
+}
 
 
  /********************************************

@@ -1,6 +1,37 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const nums1 = [5, 3, 7, -11, 1003];
+const nums2 = [8, 1, 2, -53, -812]; 
+
+
+const addAll = (arr) => {
+  function addAll(arr){
+    let sum = 0
+    for(total of arr){
+      console.log('total', total)
+      sum += total
+    }
+    return sum
+ }
+}
+
+const countSpaces = function countSpaces(str){
+  let spaces = 0
+for (item of str){
+  console.log(item)
+  if (item == " "){
+    spaces ++
+  }
+ }
+return spaces 
+}
+
+
+const countTrues = function countTrues(arr){
+
+}
+
 
 
 /*********************************
@@ -9,17 +40,17 @@
 
 
 
-if (typeof addAll === 'undefined') {
-  addAll = undefined;
-}
+// if (typeof addAll === 'undefined') {
+//   addAll = undefined;
+// }
 
-if (typeof countSpaces === 'undefined') {
-  countSpaces = undefined;
-}
+// if (typeof countSpaces === 'undefined') {
+//   countSpaces = undefined;
+// }
 
-if (typeof countTrues === 'undefined') {
-  countTrues = undefined;
-}
+// if (typeof countTrues === 'undefined') {
+//   countTrues = undefined;
+// }
 
 if (typeof makeFriendly === 'undefined') {
   makeFriendly = undefined;

@@ -27,7 +27,7 @@ console.log("students", students)
 
 function loopThrough(arr){
   
-  for (let i = 0, i >= students.length; i++){
+  for (let i = 0; i >= students.length; i++){
 
   } console.log("arr[i]", arr[i])
 }
@@ -36,29 +36,57 @@ function loopThrough(arr){
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
+ 
+function BACKWARDS(arr){
+  for (let i = 0; i < BACKWARDS.length.reverse(str); i++){
 
-
+  }
+}
 
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
-
+let onlyPositive = positiveNumbers.length;
+for (let i = 0; i < positiveNumbers.length; i++){
+  if (positiveNumbers.length % 2 === 0){
+    return onlyPositive
+  }
+}
+console.log(onlyPositive)
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
-
+let onlyEvens = []
+ 
+function onlyEvens(arr) {
+  for (let i = 0; i < onlyEvens.length; i++){
+    if (mixedSignNumbers.length % 2 === 0){
+      return onlyEvens
+    console.log(onlyEvens.length)
+    }
+  }
+}
 
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
-const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
+// const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
+// const symmetricalCapitals = ['I', 'M', 'O', 'T', 'U', 'V', 'W', 'X']
+let symmetricalCapitals = ['I', 'M', 'O', 'T', 'U', 'V', 'W', 'X'] = (arr) => {
+ for (let i = 0; i < symmetricalCapitals.length; i++){
+   
+ }
+}
+console.log(symmetricalCapitals)
 
 
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
-const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
-
+// const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+let fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13] = (arr) => {
+  fibonacciNumbers.length.unshift(6)
+}
 
 // Challenge 7
 // Make a NEW array with 5 values of your choice, using the same syntax as the array creation from the previous 6 challenges; that is, every value should be placed within the square brackets.  Now console.log out each value individually.

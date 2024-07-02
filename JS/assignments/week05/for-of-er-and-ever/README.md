@@ -42,14 +42,14 @@ A map:
 
 * returns the same number of items as in the original collection
 * with some items transformed
-
+<!-- 
 ##### Exercises
 
 * `cubeAll` - given an array of numbers, returns an array where each number has been cubed (a.k.a. raised to the third power).
 * `addNoises` - given an array of strings, returns an array where each string has appended to it that animal's noise. See tests for examples! **HINT:** You're definitely going to have to check for each tested-for animal name, but you could use a compound boolean in your `if` check, or set up an array of your own animals and use `.includes`, or use a `switch` statement. Either way, you can look at the tests to see which names should be considered which animals!
 
 
-**Filters**
+**Filters** -->
 
 ##### A Helpful Reminder
 
