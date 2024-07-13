@@ -1,3 +1,6 @@
+
+
+
 # `while-e-coyote?`
 
 > In this exercise, we'll do some practice with while loops! Although you could probably figure out how to do this without while loops, please don't! Use a while loop :)

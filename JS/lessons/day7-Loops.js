@@ -15,9 +15,9 @@
 // console.log(loopy([1,2,3,4,5,6]))
 
 
-//   i = i + 1 
-//   i++ 
-//   i+=10   i = i + 10
+//   i = i + 1 same as i++
+
+//   i+=10 same as   i = i + 10
 // 
 
 let num = 7
@@ -30,14 +30,14 @@ num += 10
 
 
 function funWithLoops(arr) {
-    let revered = []
+    let reversed = []
     for (let i = 0; i < arr.length; i = i + 1) {
         console.log("i:", i, "arr[i]", arr[i])
-        revered.unshift(arr[i])
-        console.log("building rev", revered)
+        reversed.unshift(arr[i])
+        console.log("building rev", reversed)
     }
     // console.log("WE left the loop", grade )
-    console.log("revered", revered)
+    console.log("reversed", reversed)
 }
 
 console.log(funWithLoops([10, 20, 30, 40, 50, 60]))

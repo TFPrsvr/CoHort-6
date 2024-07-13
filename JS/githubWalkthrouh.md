@@ -47,5 +47,7 @@ when you have uploads ready for github
       open in Intergrated Terminal
             git push origin main
 
+------------------------------------------------------------------
 
-            
+
+            ** ctrl d lets you multiple select whatever to change or move or what you need to so

@@ -1,72 +1,97 @@
 /******************
  * YOUR CODE HERE *
  ******************/
- function xify(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-    
+function xify(str) {
+  let newStr = ''
+  for (let i = 0; i < str.length; i++) {
+    newStr += 'x'
   }
- }
-
-
- function yellingChars(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-
-  }
- }
-
-
- function indexedChars(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-
-  }
- }
-
- function numberedChars(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-    
-  }
- }
-
- function exclaim(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-    
-  }
- }
-
- function repeatIt(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-    
-  }
- }
-
-function truncate(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-    
-  }
- }
-
- function emailify(str){
-  let str = ' '
-  for (let i = 0; i < str.length; i++){
-    
-  }
- }
-
- function reverse(str){
-
- }
-
-function onlyVowels(word){
-  
+  return newStr
 }
 
+function yellingChars(str) {
+  let newStr = ''
+  for (let i = 0; i < str.length; i++) {
+    newStr = newStr + str[i] + '!'
+  }
+  return newStr
+}
+
+function indexedChars(str) {
+  let newStr = ''
+  for (let i = 0; i < str.length; i++) {
+    newStr += i + str[i]
+  }
+  return newStr
+}
+
+function numberedChars(str) {
+  let output = ''
+  for (let i = 0; i < str.length; i++) {
+    output += "(" + (i + 1) + ")" + str[i];
+  }
+  return output
+}
+
+function exclaim(str) {
+  return str.replace(/[?.]/g, '!')
+}
+
+ 
+ function repeatIt(str, num){
+  let repeatedStr = "";
+  while (num > 0){
+    repeatedStr += str;
+    num--;
+  } return repeatedStr;
+ }
+
+
+function truncate(str){
+ 
+  let maxLength = 18
+ if (str.length <= maxLength){
+  return str
+ } 
+   return str.slice(0, maxLength-3) + '...' 
+  }
+console.log("I don't know what I'm doing")
+
+
+
+function emailify(str) {
+  let parts = str.split(' ');
+  if (parts.length !== 2) {
+    return 'Invalid'
+  }
+  let firstName = parts[0][0].toLowerCase();
+  let lastName = parts[1].toLowerCase();
+  let email = `${firstName}${lastName}.prsvr@gmail.com`
+  return email
+}
+
+
+ function reverse(input){
+  let result = []
+  let split = input.split("")
+  for (let i = 0; i < split.length; i++){
+    result.unshift(split[i])   
+  }
+  return result.join("")
+ }
+
+
+
+ function onlyVowels(str) {
+  const vowels = 'aeiouAEIOU';
+  let result = '';
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+      result += str[i]
+    }
+  }
+  return result
+}
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
@@ -105,8 +130,8 @@ if (typeof truncate === 'undefined') {
   truncate = undefined;
 }
 
-if (typeof ciEmailify === 'undefined') {
-  ciEmailify = undefined;
+if (typeof emailify === 'undefined') {
+  emailify = undefined;
 }
 
 if (typeof reverse === 'undefined') {
